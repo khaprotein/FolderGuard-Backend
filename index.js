@@ -60,7 +60,7 @@ sequelize
   .sync({ alter: true })
   .then(() => {
     console.log("Database đã kết nối và đồng bộ!");
-    server.listen(3000, () => {
+    server.listen(process.env.PORT, () => {
       console.log(" Server đang chạy tại http://localhost:3000");
     });
   })
