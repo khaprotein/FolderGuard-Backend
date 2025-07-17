@@ -1,22 +1,6 @@
 
 const userFolderService = require("../service/UFPremissionService");
 
-const userService = require("../service/userService");
-
-const folderService = require("../service/folderService");
-
-const departmentService = require("../service/departmentService");
-
-const userDepartmentService = require("../service/userDepartmentService");
-
-const notificationService = require("../service/notificationService");
-
-const approvalRequestService = require("../service/approvalRequestService");
-const approvalSessionService = require("../service/approvalSessionService");
-
-const logService = require("../service/systemLogService");
-
-
 const getAll = async (req, res) => {
   try {
     const list = await userFolderService.getAll();
