@@ -6,7 +6,7 @@ const UserDepartment  = require("./userDepartmentModel")
 
 const Folder = require("./folderModel");
 const UFPermission = require("./userFolderPermissionModel");
-const ApprovalSession = require("./ApprovalSessionModel");
+const ApprovalSession = require("./approvalSessionModel");
 const ApprovalRequest = require("./approvalRequestModel");
 
 const SystemLog = require("./SystemLogModel");
