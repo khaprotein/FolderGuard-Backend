@@ -1,4 +1,4 @@
-const approvalSessionService = require("../service/approvalSessionService");
+const approvalSessionService = require("../service/ApprovalSessionService");
 const userDepartmentService = require("../service/userDepartmentService");
 const userService = require("../service/userService");
 const mailService = require("../service/mailService");
